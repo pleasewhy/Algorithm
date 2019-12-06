@@ -9,8 +9,9 @@ public class HeapSort {
      * @param array
      */
     public static void sort(int[] array) {
-        for (int i = 0; i < array.length; ++i)
+        for (int i = 0; i < array.length; ++i) {
             insert(array, i, array[i]);
+        }
         for (int i = array.length; i > 0; --i) {
             deleteMin(array, i);
         }
@@ -18,14 +19,16 @@ public class HeapSort {
 
     /**
      * array和length用于表示这个堆，data为插入元素
+     *
      * @param array
      * @param length
      * @param data
      */
     public static void insert(int[] array, int length, int data) {
         int hole = length++;
-        for (; hole != 0 && array[(hole - 1) / 2] > data; hole = (hole - 1) / 2)
+        for (; hole!=0&&data < array[(hole - 1) / 2]; hole = (hole - 1) / 2) {
             array[hole] = array[(hole - 1) / 2];
+        }
         array[hole] = data;
     }
 
@@ -41,12 +44,14 @@ public class HeapSort {
         int i, child;
         for (i = 0; i * 2 + 1 <= length; i = child) {
             child = i * 2 + 1;
-            if (child != length && array[child] > array[child + 1])
+            if (child != length && array[child] > array[child + 1]) {
                 child++;
-            if (array[child] < lastElement)
+            }
+            if (array[child] < lastElement) {
                 array[i] = array[child];
-            else
+            } else {
                 break;
+            }
         }
         array[i] = lastElement;
         array[length] = topElement;

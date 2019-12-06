@@ -5,18 +5,22 @@ public class QuickSort {
         qsort(array,0, array.length);
     }
     public static void qsort(int[] array, int start, int end) {
-        if (start >= end)
+        if (start >= end) {
             return;
+        }
         int i = start;
         int j = end - 1;
         int base = array[start];
         while (i < j) {
-            while (i < j && array[j] <= base)
+            while (i < j && array[j] <= base) {
                 j--;
-            while (i < j && array[i] >= base)
+            }
+            while (i < j && array[i] >= base) {
                 i++;
-            if (i < j)
+            }
+            if (i < j) {
                 swap(array, i, j);
+            }
         }
         swap(array, start, i);
         qsort(array, start, i - 1);

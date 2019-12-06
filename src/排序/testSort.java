@@ -12,7 +12,6 @@ public class testSort {
         }
         return randomArr;
     }
-
     public static void main(String[] args) {
         int[] randomArr = randomArray(1000000);
         long a = System.nanoTime();
@@ -23,11 +22,17 @@ public class testSort {
         a = System.nanoTime();
         QuickSort.sort(randomArr);
         System.out.println((System.nanoTime() - a) / 1_000_000);
-        randomArr = randomArray(10);
-        QuickSort.sort(randomArr);
-        for (int i:randomArr
-             ) {
-            System.out.print(i + " ");
-        }
+
+        randomArr = randomArray(1000000);
+        a = System.nanoTime();
+        InsertSort.sort(randomArr);
+        System.out.println((System.nanoTime() - a) / 1_000_000);
+
+//        randomArr = randomArray(10);
+//        InsertSort.sort(randomArr);
+//        for (int i:randomArr
+//             ) {
+//            System.out.print(i + " ");
+//        }
     }
 }
