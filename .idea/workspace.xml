@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09f533c-7d19-40f6-9b7d-c15fe227fb85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/排序/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/排序/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/算法/META-INF/算法.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/算法/排序/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/算法/排序/HeapSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/算法/排序/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/算法/排序/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/算法/排序/testSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/算法/排序/testSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/排序/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/排序/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/排序/testSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/testSort.java" afterDir="false" />
     </list>
@@ -108,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574152530536</updated>
-      <workItem from="1575606763277" duration="6503000" />
+      <workItem from="1575606763277" duration="15473000" />
     </task>
     <servers />
   </component>
@@ -132,33 +126,61 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="553" y="182" key="#Inspections" timestamp="1575618477861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="442" y="144" key="#Inspections" timestamp="1575641092255">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="442" y="144" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1575641092255" />
     <state x="553" y="182" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1575618477861" />
     <state x="580" y="118" key="CommitChangelistDialog2" timestamp="1575621648259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575621648259" />
-    <state width="1878" height="210" key="GridCell.Tab.0.bottom" timestamp="1575621387628">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575641176511">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575612632401" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575641176511" />
     <state width="1878" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575621387628" />
-    <state width="1878" height="210" key="GridCell.Tab.0.center" timestamp="1575621387627">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575641176511">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575612632401" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575641176511" />
     <state width="1878" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575621387627" />
-    <state width="1878" height="210" key="GridCell.Tab.0.left" timestamp="1575621387627">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575641176511">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575612632401" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575641176511" />
     <state width="1878" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575621387627" />
-    <state width="1878" height="210" key="GridCell.Tab.0.right" timestamp="1575621387628">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575641176511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575641176511" />
+    <state width="1878" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575621387628" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1575640193272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575640193272" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1575640193272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575640193272" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1575640193272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575640193272" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1575640193272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575640193272" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1575629241366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575612632401" />
-    <state width="1878" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575621387628" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575629241366" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="randomArr" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
